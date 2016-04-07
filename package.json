@@ -1,0 +1,21 @@
+{
+  "name": "MyProject",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-livereload": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "imagemin-jpegtran": "^4.3.2",
+    "imagemin-optipng": "^4.3.0",
+    "map-stream": "*"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^2.0.4",
+    "gulp-imagemin": "^2.4.0"
+  }
+}

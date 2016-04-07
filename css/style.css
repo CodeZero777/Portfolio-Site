@@ -1,0 +1,110 @@
+* {
+	/*border: 1px solid red !important;*/
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #f8981c;
+	background-image: radial-gradient(circle, #f8981c, black);
+    background-color: #fcfcfc;
+}
+
+.container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+		/* -- Header --*/
+
+h1 {
+	font-weight: 100;
+	letter-spacing: 0.04em;
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 20px;
+	margin-top: 0;
+	letter-spacing: 0.03em;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 4px solid #bcbbbb;
+}
+
+.Padding-Top-HeaderTitle {
+	padding-top: 25px;
+}
+
+.width-HeaderLogo {
+	width: 40%;
+	border-radius: 30%;
+}
+
+		/*--Content--*/
+
+h2 {
+	letter-spacing: 0.04em;
+	font-size: 34px;
+}
+
+.main-img-resize {
+	
+	width: 1000px;
+	max-height: 400px;
+}
+
+/* For the 3 bottom images (300x200) */
+.img-resize {
+	max-width: 300px;
+	max-height: 200px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #f8981c;
+	letter-spacing: 0.04em;
+}
+
+a:visited {
+	color: #f8981c;
+}
+
+.featuredWork-Row {
+	padding-left: 15px;
+	letter-spacing: 0.03em;
+	color: #CBCBCB;
+}
+
+		/*bootstrap properties modified*/
+
+/*
+.img-thumbnail {
+  padding: 0;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+*/
+
+/*@media screen and (max-width: 400px) {
+	body {background-color: red;}
+}
+
+@media screen and (min-width: 401px) and (max-width: 599px) {
+	body {background-color: green;}
+}
+
+@media screen and (min-width: 600px) {
+	body {background-color: blue;}
+}*/
