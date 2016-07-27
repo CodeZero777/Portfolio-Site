@@ -1,7 +1,9 @@
-$(window).scroll(function () {
-  var sticky = $('.sticky'),
-  scroll = $(window).scrollTop();
-
-  if (scroll >= 100) sticky.addClass('fixed');
-  else sticky.removeClass('fixed');
-});
+ (function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $("header").addClass("fixed");
+        } else {
+            $(".fixed").removeClass("fixed");
+        }
+    });
+ })();

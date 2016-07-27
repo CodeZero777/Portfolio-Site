@@ -7,13 +7,12 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: #f8981c;
-	background-image: radial-gradient(circle, #f8981c, black);
+	background-image: radial-gradient(circle, black, #f8981c);
     background-color: #fcfcfc;
     background-attachment: fixed;
 }
 
 footer {
-    background-color: #222;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -56,6 +55,21 @@ hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 4px solid #bcbbbb;
+}
+
+.top_margin {
+    margin-top: 350px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    padding: 10px 0;
+    width: 62%;
+    z-index: 1;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(black, #f8981c);
+	-webkit-transition: padding 1.5s ease-out;
 }
 
 .Padding-Top-HeaderTitle {
