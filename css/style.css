@@ -69,7 +69,7 @@ hr {
     z-index: 1;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
     background-image: linear-gradient(black, #f8981c);
-	-webkit-transition: padding 1.5s ease-out;
+	-webkit-transition: all 1.5s ease-out;
 }
 
 .Padding-Top-HeaderTitle {
